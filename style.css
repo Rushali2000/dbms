@@ -71,6 +71,7 @@ body >* {
     border-top-right-radius: inherit;
 }
 .post-header .post-title{
+    text-align: justify;
     font-size: 20px;
     font-weight: bold;
     padding-left: 10px;
@@ -193,6 +194,7 @@ body >* {
     box-shadow: 0px 0px 2px #888;
     padding: 0.1em 0.35em;
 }
+<<<<<<< HEAD
 .emergency-headline{
     margin-bottom: 10px;
     text-decoration-style: solid;
@@ -203,3 +205,34 @@ body >* {
 p{
     text-decoration-color: #000;
 }
+=======
+.hidden{
+    display: none;
+}
+.post-comment{
+    border-top:rgba(122, 122, 122, 0.5) solid 1px;
+    display: flex;
+    padding-top: 20px;
+}
+.post-comment > *{
+    width: 100%;
+}
+.post-comment .profile-icon{
+    width: 100px;
+}
+.post-comment .comment-content{
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+textarea{
+    resize: none;
+}
+.post-content .post-text{
+    overflow-y: hidden;
+    max-height: 200px;
+    text-overflow: ellipsis;
+}
+.post-user{
+    min-width: 70px;
+}
+>>>>>>> f529399f8782a3267649a2317620e76701b96e49
